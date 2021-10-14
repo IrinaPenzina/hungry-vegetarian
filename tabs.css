@@ -3,8 +3,6 @@ main {
   margin: 5%;
 }
 
-
-
 header {
   height: 30vh;
   min-height: 180px;
@@ -26,7 +24,6 @@ header nav ul {
   list-style-type: none;
   margin: 0px;
 }
-
 
 header nav .tab {
   font-family: font-family: 'Raleway', sans-serif;
@@ -83,7 +80,6 @@ article{
   background: linear-gradient(90deg, rgba(76,115,18,1) 0%, rgba(141,191,33,1) 50%, rgba(211,217,37,1) 100%);
 }
 
-
 article .container {
   width: 100%;
   padding: 40px;
@@ -131,3 +127,64 @@ article p {
 .fade-leave-active > *:nth-child(2) {
   transition-delay: 100ms;
 }
+
+
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  header {
+    height: 3vh;
+    min-height: 72px;
+  }
+  header nav .tab {
+    padding: 10px 20px;
+  }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {  
+  header {
+    height: 3vh;
+    min-height: 72px;
+  }
+  header nav .tab {
+    padding: 10px 20px;
+    font-size: 12px;
+  }
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+  header {
+    height: 3vh;
+    min-height: 72px;
+  }
+  header nav .tab {
+    padding: 0px;
+    font-size: 12px;
+  }
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+   header {
+    height: 3vh;
+    min-height: 72px;
+  }
+  header nav .tab {
+    padding: 10px 0px;
+    font-size: 12px;
+  } 
+ 
+}
+
+/*X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) {
+  header {
+    height: 10vh;
+    min-height: 150px;
+  }
+}
+
+/*XX-Large devices (larger desktops)
+No media query since the xxl breakpoint has no upper bound on its width*/
+

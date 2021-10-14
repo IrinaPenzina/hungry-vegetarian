@@ -142,5 +142,55 @@ p {
   transition: all 265ms ease-in;
 }
 
+/*X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
 
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+  .search-question {
+    font-size: 30px;
+  }
+  .input-search {
+    width: 50%;
+  }
+  .btn-search {
+    height: 30px;
+  }
+  .social-icons {
+    margin: 0;
+  }
+  .social-icons li {
+    margin: 0;
+  }
+  .social-icons a:before {
+    width: 55px;
+    height: 55px;
+  }
+  .footer {
+    padding: 0px 15px;
+  }
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { ... }
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { ... }
+
+/*X-Large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) { 
+header {
+    height: 30vh;
+    min-height: 180px;
+  }
+  .input-search {
+    width: 70%;
+  }
+  .btn-search {
+    height: 40px;
+  }
+}
+
+/*XX-Large devices (larger desktops)
+No media query since the xxl breakpoint has no upper bound on its width*/
 
