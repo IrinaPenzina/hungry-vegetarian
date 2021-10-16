@@ -181,7 +181,14 @@ article p {
 @media (max-width: 1399.98px) {
   header {
     height: 10vh;
-    min-height: 150px;
+    min-height: 134px;
+  }
+  header nav .tab {
+    padding: 16px 20px;
+    font-size: 16px;
+  } 
+  header nav ul {
+    overflow: scroll;
   }
 }
 
