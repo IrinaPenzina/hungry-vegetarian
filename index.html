@@ -73,18 +73,18 @@
           <transition name="fade" mode="out-in" appear :duration="500">
             <tab-content v-for="(tabContent, t) in tabs" :data="tabContent" :key="'content'+t" v-if="t === activeTab" inline-template>
               <div class="content-wrapper">
-                <myRecipe class="recipes" v-for="recipe in data" :key="data.name">
+                <div class="recipes" v-for="recipe in recipes" :data="recipes" :key="recipes.name">
 
                   <a href="#" class="recipe-card__card-link"></a>
-                  <img :src="recipe.image" alt="" class="recipe-card__image">
+                  <img :src="recipes.image" alt="" class="recipe-card__image">
                   <div class="recipe-card__text-wrapper">
-                    <h2 class="recipe-card__title">{{data.name}}</h2>
+                    <h2 class="recipe-card__title">{{recipes.name}}</h2>
                     <div class="recipe-card__details-wrapper">
-                      <p class="recipe-card__excerpt">{{recipe.body}}</p>
+                      <p class="recipe-card__excerpt">{{recipes.body}}</p>
                       <a href="#" class="recipe-card__read-more">Read more <i class="fa fa-arrow-right"></i></a>
                     </div>
                   </div>
-                </myRecipe>
+                </div>
               </div>
             </tab-content>
           </transition>
@@ -106,20 +106,6 @@
         <p class="footertext">Irina Hengst&#169;<br></p>
       </div>
     </div>
-
-<!--     <script type="text/x-template" id="myRecipe">
-      <div class="recipes">
-        <a href="#" class="recipe-card__card-link"></a>
-          <img :src="data.image" alt="" class="recipe-card__image">
-            <div class="recipe-card__text-wrapper">
-              <h2 class="recipe-card__title">{{data.name}}</h2>
-                <div class="recipe-card__details-wrapper">
-                  <p class="recipe-card__excerpt">{{data.body}}</p>
-                  <a href="#" class="recipe-card__read-more">Read more <i class="fa fa-arrow-right"></i></a>
-                </div>
-            </div>
-      </div>
-    </script> -->
     <script src="index.js"></script>
   </body>
 </html>
