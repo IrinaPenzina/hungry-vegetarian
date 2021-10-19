@@ -73,7 +73,7 @@
           <transition name="fade" mode="out-in" appear :duration="500">
             <tab-content v-for="(tabContent, t) in tabs" :data="tabContent" :key="'content'+t" v-if="t === activeTab" inline-template>
               <div class="content-wrapper">
-                <div class="recipes" v-for="recipe in recipes">
+                <div class="recipes" v-for="(recipe, i) in data.recipes" :key="i">
 
                   <a href="#" class="recipe-card__card-link"></a>
                   <img :src="recipe.image" alt="" class="recipe-card__image">
