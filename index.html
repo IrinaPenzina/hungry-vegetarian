@@ -75,7 +75,7 @@
               <div class="content-wrapper">
                 <div class="recipes" v-for="(recipe, i) in data.recipes" :key="i">
 
-                  <a href="#" class="recipe-card__card-link"></a>
+                  <a v-bind:href="recipe.url" class="recipe-card__card-link"></a>
                   <img :src="recipe.image" alt="" class="recipe-card__image">
                   <div class="recipe-card__text-wrapper">
                     <h2 class="recipe-card__title">{{recipe.name}}</h2>
