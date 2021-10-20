@@ -5,12 +5,14 @@ new Vue({
       "Breakfast": {
         recipes : [
           {
+            url: "#",
             image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
             name: "Awesome Title",
             body:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nam alias architecto officia, dolores animi qui debitis incidunt eius temporibus nostrum nihil soluta commodi molestiae necessitatibus ducimus amet. Suscipit, saepe!",
           },
           {
+            url: "#",
             image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
             name: "Awesome Title",
             body:
@@ -21,12 +23,14 @@ new Vue({
       "Soup": {
         recipes : [
           {
+            url: "#",
             image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
             name: "Great Title",
             body:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nam alias architecto officia, dolores animi qui debitis incidunt eius temporibus nostrum nihil soluta commodi molestiae necessitatibus ducimus amet. Suscipit, saepe!",
           },
           {
+            url: "#",
             image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
             name: "Great Title",
             body:
@@ -37,12 +41,14 @@ new Vue({
       "Salad": {
         recipes : [
           {
+            url: "#",
             image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
             name: "Amazing Title",
             body:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nam alias architecto officia, dolores animi qui debitis incidunt eius temporibus nostrum nihil soluta commodi molestiae necessitatibus ducimus amet. Suscipit, saepe!",
           },
           {
+            url: "#",
             image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
             name: "Amazing Title",
             body:
@@ -53,12 +59,14 @@ new Vue({
       "Main": {
         recipes : [
           {
+            url: "#",
             image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
             name: "Awesome",
             body:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nam alias architecto officia, dolores animi qui debitis incidunt eius temporibus nostrum nihil soluta commodi molestiae necessitatibus ducimus amet. Suscipit, saepe!",
           },
           {
+            url: "#",
             image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
             name: "Awesome",
             body:
@@ -69,12 +77,14 @@ new Vue({
       "Dessert": {
         recipes : [
           {
+            url: "#",
             image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
             name: "Awesome Title",
             body:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nam alias architecto officia, dolores animi qui debitis incidunt eius temporibus nostrum nihil soluta commodi molestiae necessitatibus ducimus amet. Suscipit, saepe!",
           },
           {
+            url: "#",
             image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
             name: "Awesome Title",
             body:
@@ -85,12 +95,14 @@ new Vue({
       "Drink": {
         recipes : [
           {
+            url: "#",
             image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
             name: "Awesome Title",
             body:
               "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nam alias architecto officia, dolores animi qui debitis incidunt eius temporibus nostrum nihil soluta commodi molestiae necessitatibus ducimus amet. Suscipit, saepe!",
           },
           {
+            url: "#",
             image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
             name: "Awesome Title",
             body:
@@ -119,7 +131,7 @@ new Vue({
       },
     },
     'recipes': {
-      props: ['image', 'name', 'body'],
+      props: ['url','image', 'name', 'body'],
     },
   },
 })
