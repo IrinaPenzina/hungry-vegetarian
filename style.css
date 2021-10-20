@@ -89,7 +89,7 @@ p {
 
 .footertext{
   text-align: right;
-  color: rgba(211,217,37,1);
+  color: #F2A922;
 }
 
 /*social buttons*/
@@ -126,7 +126,7 @@ p {
   height: 60px;
   border-radius: 100%;
   display: block;
-  background: rgba(211,217,37,1);
+  background: #F2A922;
   transition: all 265ms ease-out;
 }
 .social-icons a:hover:before {
@@ -137,8 +137,8 @@ p {
   transform: scale(2.2);
   -ms-transform: scale(2.2);
   -webkit-transform: scale(2.2);
-  color: rgba(211,217,37,1);
-  background: rgba(211,217,37,1);
+  color: white;
+  background: #F2A922;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 265ms ease-in;

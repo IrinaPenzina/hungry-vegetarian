@@ -40,7 +40,7 @@ header nav .tab {
 }
 header nav .tab:hover .tab-background {
   height: 16px;
-  background: rgba(141,191,33,1);
+  background: #4c7312;
 }
 header nav .tab:hover .tab-rounding {
   transform: scaleY(1);
@@ -50,7 +50,7 @@ header nav .tab.active {
 }
 header nav .tab.active .tab-background {
   height: 100%;
-  background: rgba(211,217,37,1) ;
+  background: #F2A922;
 }
 header nav .tab.active .tab-rounding {
   transform: scaleY(1);
@@ -75,9 +75,7 @@ header nav .tab-background {
 article{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 8px;
-  /*background: rgb(30,64,5);*/
-/*  background: linear-gradient(90deg, rgba(30,64,5,1) 0%, rgba(76,115,18,1) 50%, rgba(122,166,28,1) 100%);*/
-  background: linear-gradient(90deg, rgba(76,115,18,1) 0%, rgba(141,191,33,1) 50%, rgba(211,217,37,1) 100%);
+  background: #4c7312;
 }
 
 article .container {
