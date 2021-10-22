@@ -36,9 +36,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 
-    <!-- Responsive css -->
-    <!-- <script src="css-element-queries-1.2.1/src/ResizeSensor.js"></script>
-    <script src="css-element-queries-1.2.1/src/ElementQueries.js"></script> -->
+    <!-- For reusable footer -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script> 
+      $(function(){
+        $(".footer").load("footer.html"); 
+      });
+    </script> 
+  </head>
   <body>
     <div class="main-top">
       <div class="main-logo">
@@ -46,10 +51,10 @@
       </div>
       <div class="main-search">
         <h1 class="search-question">What  are you in the mood for?</h1>
-        <div class="search-box">
+<!--         <div class="search-box">
           <input type="text" class="input-search" placeholder="Borsch">
           <button class="btn-search"><i class="fa fa-search"></i></button>
-        </div>
+        </div> -->
       </div>
     </div>
 
@@ -91,21 +96,7 @@
         </div>
       </article>
     </main>
-
-
-    <div class="footer">
-     <div class="social-container">
-        <ul class="social-icons">
-            <li><a href="https://www.instagram.com/iri_/" target= "_blank"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fa fa-pinterest"  target= "_blank"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/irina-penzina/" target= "_blank"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/IrinaPenzina" target= "_blank"><i class="fa fa-github"></i></a></li>
-        </ul>
-      </div>
-      <div>
-        <p class="footertext">Irina Hengst&#169;<br></p>
-      </div>
-    </div>
+    <div class="footer"></div>
     <script src="index.js"></script>
   </body>
 </html>
