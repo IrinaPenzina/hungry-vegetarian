@@ -1,0 +1,15 @@
+{
+  "short_name": "Hungry",
+  "name": "Hungry Vegetarian",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "180x180 32x32 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "/",
+  "display": "browser",
+  "theme_color": "#4c7312",
+  "background_color": "#ffffff"
+}
