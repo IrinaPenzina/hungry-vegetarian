@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <meta name="HandheldFriendly" content="true" />
+    <!-- manifest -->
+    <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
 
     <!-- google metatags -->
     <meta name="description" content="Delicious vegetarian recipes" />
@@ -95,7 +97,7 @@
                     <h2 class="recipe-card__title">{{recipe.name}}</h2>
                     <div class="recipe-card__details-wrapper">
                       <p class="recipe-card__excerpt">{{recipe.body}}</p>
-                      <a href="#" class="recipe-card__read-more">Read more <i class="fa fa-arrow-right"></i></a>
+                      <a v-bind:href="recipe.url" class="recipe-card__read-more">Read more <i class="fa fa-arrow-right"></i></a>
                     </div>
                   </div>
                 </div>
