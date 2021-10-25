@@ -74,6 +74,33 @@ p {
   font-family: font-family: 'Raleway', sans-serif;
 }
 
+
+
+/*header*/
+.container-fluid{
+  padding-left: 0px !important;
+
+}
+.small-logo {
+  display: flex;
+}
+
+.small-bro {
+  background-image: url("images/Broccoli0.png");
+  background-size: cover;
+  height: 100px;
+  width: 100px;
+  margin-right: 10px;
+}
+
+.small-name {
+  padding-top: 5%;
+  font-size: 18px;
+}
+
+
+/*footer*/
+
 .footer {
   display: flex;
   justify-content: space-between;
