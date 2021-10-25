@@ -82,7 +82,8 @@ p {
   bottom: 0px;
   width: 100%;
   height: 120px;
-  background-color: #1E4005;
+  /*background-color: #1E4005;*/
+  background: url("images/footer.jpg");
   padding: 0px 50px;
   padding-bottom: 0px;
 }
