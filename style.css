@@ -1,4 +1,4 @@
-h3{
+h1, h3{
 	font-family: 'Annie Use Your Telescope', cursive;
 	color: #1E4005;
 }
@@ -85,6 +85,7 @@ p {
 .header {
   position: fixed;
   width: 100%;
+  z-index: 100;
 }
 .container-fluid{
   padding-left: 0px !important;
