@@ -1,10 +1,15 @@
-h1{
+h3{
 	font-family: 'Annie Use Your Telescope', cursive;
 	color: #1E4005;
 }
 
+h2 {
+  font-family: 'Cabin Sketch', cursive;
+  color: #F2A922;
+}
+
 p {
-	font-family: font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
 	color: #022601;
 }
 
@@ -77,6 +82,10 @@ p {
 
 
 /*header*/
+.header {
+  position: fixed;
+  width: 100%;
+}
 .container-fluid{
   padding-left: 0px !important;
 
@@ -88,14 +97,15 @@ p {
 .small-bro {
   background-image: url("images/Broccoli0.png");
   background-size: cover;
-  height: 100px;
-  width: 100px;
+  height: 50px;
+  width: 50px;
   margin-right: 10px;
 }
 
 .small-name {
   padding-top: 5%;
-  font-size: 18px;
+  font-size: 30px;
+  font-family: 'Annie Use Your Telescope', cursive !important;
 }
 
 

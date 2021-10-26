@@ -34,9 +34,7 @@
 
     <!-- css -->
     <link rel="stylesheet" href="../style.css">
-    <!-- <link rel="stylesheet" href="../tabs.css">
-    <link rel="stylesheet" href="../cards.css"> -->
-
+    <link rel="stylesheet" href="../recipe.css">
 
     <!-- font-awesome -->
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
@@ -48,8 +46,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-
-    <!-- For reusable footer -->
+  
+    <!-- For reusable components-->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script> 
       $(function(){
@@ -60,16 +58,21 @@
   </head>
   <body>
     <div class="header"></div>
-    <div id="app">
-      <agile class="main" ref="main" :options="options1" :as-nav-for="asNavFor1">
-        <div class="slide" v-for="(slide, index) in slides" :key="index" :class="`slide--${index}`"><img :src="slide"/></div>
-      </agile>
-      <agile class="thumbnails" ref="thumbnails" :options="options2" :as-nav-for="asNavFor2">
-        <div class="slide slide--thumbniail" v-for="(slide, index) in slides" :key="index" :class="`slide--${index}`" @click="$refs.thumbnails.goTo(index)"><img :src="slide"/></div>
-        <template slot="prevButton"><i class="fas fa-chevron-left"></i></template>
-        <template slot="nextButton"><i class="fas fa-chevron-right"></i></template>
-      </agile>
+    <div class="banner">
+      <div class="gradient">
+        <img class="banner-recipe" src="img/dumplings.JPG" alt="dumplings">
+      </div>
+      <div class="banner-text">
+        <h2 class="recipe-name">Vegetarian Dumplings</h2>
+        <p class="tagline">Vegetarian dumplings that we make with my husband. It's not just a meal cooking but also a great team building.</p>
+      </div>
     </div>
+    <div class="recipe">
+      <p class="ingredients">
+        
+      </p>
+    </div>
+    
     <div class="footer"></div>
   </body>
 </html>
