@@ -1,0 +1,43 @@
+.banner {
+  height: 700px;
+}
+
+.gradient {
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) no-repeat center center scroll;
+}
+
+.banner-recipe  {
+  z-index: -1;
+  height: 700px;
+  width: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  object-fit: cover;
+  /* padding: 250px 0; */
+  text-align: left;
+  color: white;
+  font-size: 90px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.banner-text {
+  position: absolute;
+  padding-left: 50px;
+  text-shadow: 1px 1px 3px rgb(0 0 0 / 50%);
+  bottom: 50px;
+}
+
+.recipe-name {
+  color: #F2A922;
+  font-size: 60px;
+  font-family: 'Cabin Sketch', cursive;
+  text-align: center;
+}
+
+.tagline {
+  font-size: 25px;
+  color: white;
+}
