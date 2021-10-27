@@ -79,14 +79,13 @@ p {
   font-family: font-family: 'Raleway', sans-serif;
 }
 
-
-
 /*header*/
 .header {
-  position: fixed;
+  /*position: fixed;*/
   width: 100%;
   z-index: 100;
 }
+
 .container-fluid{
   padding-left: 0px !important;
 
