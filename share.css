@@ -1,5 +1,7 @@
 
-.fab .sliding-share {
+.fab .sliding-share:before {
+    text-decoration: none;
+    color:#F2A922;
     opacity: 0;
     color:#F2A922;
     will-change: transform;
@@ -7,6 +9,11 @@
             transform: scale(.1);
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
+}
+
+.share {
+    text-decoration: none;
+    color:#F2A922 !important;
 }
 
 .btn_wrap {
