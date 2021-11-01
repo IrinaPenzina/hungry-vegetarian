@@ -17,13 +17,11 @@
 }
 
 
-
 .btn_wrap {
     margin: 0 auto;
     color: #F2A922;
     font-size: 28px;
-    margin-top: 3%;
-    /*margin-left: 5%;*/
+    margin-top: 2%;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
