@@ -67,7 +67,7 @@ new Vue({
         recipes : [
           {
             url: "dumplings/dumplings.html",
-            image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+            image: "dumplings/img/cooked-soup.png",
             name: "Vegetarian Dumplings",
             body:
               "Vegetarian dumplings that we make with my husband. It's not just a meal cooking but also a great team building.",
