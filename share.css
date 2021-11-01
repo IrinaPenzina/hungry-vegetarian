@@ -16,25 +16,28 @@
     color:#F2A922 !important;
 }
 
+
+
 .btn_wrap {
+    margin: 0 auto;
     color: #F2A922;
     font-size: 28px;
     margin-top: 3%;
-    margin-left: 5%;
+    /*margin-left: 5%;*/
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     overflow: hidden;
     cursor: pointer;
     width: 240px;
-    height: 72px;
+    height: 55px;
     background-color: #022601;
     border-radius: 80px;
     padding: 0 18px;

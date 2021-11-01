@@ -40,8 +40,10 @@
     <!-- font-awesome -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   
-    <!-- bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <!-- bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
@@ -63,7 +65,7 @@
 
     <div class="banner">
       <div class="gradient">
-        <img class="full-image" src="img/dumplings.JPG" alt="dumplings">
+        <img class="full-image" src="img/cooked-soup.png" alt="dumplings">
       <div class="banner-text">
         <h2 class="recipe-name">Vegetarian Dumplings</h2>
         <p class="tagline">Vegetarian dumplings that we make with my husband. It's not just a meal cooking but also a great team building.</p>
@@ -77,7 +79,7 @@
             <a href="#" class="share"><i class="fab fa-facebook-f"></i></a>
             <a href="#" class="share"><i class="fab fa-twitter"></i></a>
             <a href="#" class="share"><i class="fab fa-instagram"></i></a>
-            <a href="#" class="share"><i class="fab fa-pinterest-square"></i></a>
+            <a href="#"class="share"><i class="fab fa-pinterest-square"></i></a>
         </div>
     </div>
     <div class="recipe-itself">
@@ -92,7 +94,7 @@
 
         <div class="step">
           <div class="recipe-img">
-              <img class="recipe-img" src="img/Mao.jpg" alt="">
+              <img class="recipe-img" src="img/dough.png" alt="">
           </div>
           <div class="box-howto">
             <p class="howto">
@@ -102,7 +104,7 @@
         </div>
         <div class="step">
           <div class="recipe-img">
-              <img class="recipe-img" src="img/Raviolli.jpg" alt="">
+              <img class="recipe-img" src="img/cut-dough.png" alt="">
           </div>
           <div class="box-howto">
             <p class="howto">
@@ -112,7 +114,57 @@
         </div>
         <div class="step">
           <div class="recipe-img">
-              <img class="recipe-img" src="img/Mint.jpg" alt="">
+              <div id="carouselExampleControls-1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/mush-filling.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/meat-filling.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/potato-filling.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-1" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-1" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+          <div class="box-howto">
+            <p class="howto">
+              Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Officia iure, distinctio ipsum nemo nostrum vitae inventore repellendus dignissimos quisquam, impedit dicta, expedita veritatis quidem, dolorum. Ipsam assumenda ex eos voluptatibus.
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="recipe-img">
+              <div id="carouselExampleControls-2" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/fry.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/raw-dumplings.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/boiling.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls-2" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls-2" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
           </div>
           <div class="box-howto">
             <p class="howto">
@@ -121,7 +173,8 @@
           </div>
         </div>
       </div>
-    
+    </div>
     <div class="footer"></div>
+    <script src="carousel.js"></script>
   </body>
 </html>
