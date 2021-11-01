@@ -70,7 +70,7 @@ new Vue({
             image: "dumplings/img/cooked-soup.png",
             name: "Vegetarian Dumplings",
             body:
-              "Vegetarian dumplings that we make with my husband. It's not just a meal cooking but also a great team building.",
+              "Vegetarian dumplings that my husband and I love to make. It's not just a delicious meal but also a time wonderfully spent together. A great family tradition for a holiday to pull everyone together.",
           },
           {
             url: "#",
