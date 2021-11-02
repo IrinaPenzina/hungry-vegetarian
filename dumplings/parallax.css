@@ -29,3 +29,12 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media (max-width: 1199.98px) {
+  .parallax {
+    background-attachment: unset;
+  }
+  .parallax-end {
+   background-attachment: unset; 
+  }
+}
