@@ -66,7 +66,7 @@ new Vue({
       "Main": {
         recipes : [
           {
-            url: "dumplings/dumplings.html",
+            url: "dumplings.html",
             image: "dumplings/img/cooked-soup.png",
             name: "Vegetarian Dumplings",
             body:
