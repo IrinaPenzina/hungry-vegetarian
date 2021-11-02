@@ -46,7 +46,7 @@
 
 .recipe-img {
   margin-right: 5%;
-  height: 250px;
+  height: 100%;
   width: 300px;
   background-size: cover;
   object-fit: cover;
@@ -54,7 +54,8 @@
 }
 
 .box-howto {
-  height: 200px;
+  height: 100%;
+  width: 300px;
   margin-bottom: 5%;
   text-align: justify;
 }
@@ -65,6 +66,12 @@
   .step {
     display: flex;
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .box-howto {
+    /* width: 300px; */
   }
 }
 
