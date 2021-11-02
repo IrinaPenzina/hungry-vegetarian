@@ -6,7 +6,7 @@
   /* Set a specific height */
   min-height: 700px;
   width: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
