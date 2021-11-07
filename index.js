@@ -29,20 +29,20 @@ new Vue({
       },
       "Soup": {
         recipes : [
+          {
+            url: "borsch.html",
+            image: "borsch/img/borsch.png",
+            name: "Meatless Borsch",
+            body:
+              "Cheap, delicious, healthy! All in one - meet Borsch! This is one of my favorite soups in the world. No one has ever said this soup is just “okay” after trying it!",
+          },
           // {
-          //   url: "#",
-          //   image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-          //   name: "Great Title",
-          //   body:
-          //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nam alias architecto officia, dolores animi qui debitis incidunt eius temporibus nostrum nihil soluta commodi molestiae necessitatibus ducimus amet. Suscipit, saepe!",
-          // },
-          // {
-          //   url: "#",
-          //   image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-          //   name: "Great Title",
-          //   body:
-          //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nam alias architecto officia, dolores animi qui debitis incidunt eius temporibus nostrum nihil soluta commodi molestiae necessitatibus ducimus amet. Suscipit, saepe!",
-          // },
+          // //   url: "#",
+          // //   image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+          // //   name: "Great Title",
+          // //   body:
+          // //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nam alias architecto officia, dolores animi qui debitis incidunt eius temporibus nostrum nihil soluta commodi molestiae necessitatibus ducimus amet. Suscipit, saepe!",
+          // // },
         ],
            },
       "Salad": {
