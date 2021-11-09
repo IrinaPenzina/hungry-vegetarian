@@ -20,7 +20,7 @@
   background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("img/blinchiki.png");
 
   /* Set a specific height */
-  min-height: 250px;
+  min-height: 270px;
   width: 100%;
 
   /* Create the parallax scrolling effect */
@@ -28,6 +28,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-bottom: 0%;
 }
 
 @media (max-width: 1199.98px) {
