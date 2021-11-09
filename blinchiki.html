@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Blinchiki - Russian Pancakes</title>
+    <!-- to avoid weired symbols -->
+    <meta charset="utf-8"/>
+    <!-- responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="HandheldFriendly" content="true"/>
+
+    <!-- manifest -->
+    <link rel="manifest" href="../manifest.json" crossorigin="use-credentials">
+
+    <!-- google metatags -->
+    <meta name="description" content="Blinchiki - Russian Pancakes" />
+
+    <!-- facebook metatags -->
+    <meta property="og:url" content="hungry-vegetarian.com/blinchiki" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Blinchiki - Russian Pancakes" />
+    <meta property="og:description" content="Blinchiki, my favorite breakfast from my childhood! You can make them with different fillings or just on their own. They are perfect for a slow weekend morning." />
+    <meta property="og:image" content="blinchiki/img/blinchiki.png" />
+    <meta property="fb:app_id" content="511634172766587" />
+
+    <!-- LinkedIn metatags -->
+    <meta property='og:title' content='Blinchiki - Russian Pancakes'/>
+    <meta property='og:image' content='blinchiki/img/blinchiki.png'/>
+    <meta property='og:description' content='Blinchiki, my favorite breakfast from my childhood! You can make them with different fillings or just on their own. They are perfect for a slow weekend morning.'/>
+    <meta property='og:url' content='hungry-vegetarian.com/blinchiki' />
+
+    <!-- pintrest metatags -->
+    <meta property="og:site_name" content="hungry-vegetarian.com/blinchiki" />
+
+    <!--  favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../favicon_package_v0.16/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon_package_v0.16/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon_package_v0.16/favicon-16x16.png">
+    <link rel="manifest" href="../site.webmanifest">
+    <link rel="mask-icon" href="../safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="recipe.css">
+    <link rel="stylesheet" href="blinchiki/parallax.css">
+    <link rel="stylesheet" href="share.css">
+
+    <!-- font-awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  
+    <!-- bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188818029-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-188818029-3');
+    </script>
+
+    <!-- For reusable components-->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script> 
+      $(function(){
+        $(".header").load("../header.html"); 
+        $(".footer").load("../footer.html"); 
+      });
+    </script> 
+  </head>
+  <body>
+     <div class="header"></div>
+      <div class="parallax">
+        <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"> </a>
+        <div class="banner-text">
+          <h2 class="recipe-name">Blinchiki - Russian Pancakes</h2>
+          <p class="tagline">Blinchiki, my favorite breakfast from my childhood! You can make them with different fillings or just on their own. They are perfect for a slow weekend morning.
+          </p>
+        </div>
+      </div>
+      <div class="btn_wrap">
+        <span>Share recipe</span>
+          <div class="sliding-share">
+              <a href="http://www.facebook.com/sharer.php?u=hungry-vegetarian.com/blinchiki" class="share" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/share?url=hungry-vegetarian.com/blinchiki&amp;text=Blinchiki, my favorite breakfast from my childhood! You can make them with different fillings or just on their own. They are perfect for a slow weekend morning." class="share" target="_blank"><i class="fab fa-twitter"></i></a>
+              <!-- <a href="#" class="share"><i class="fab fa-instagram"></i></a> -->
+              <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://hungry-vegetarian.com/blinchiki.html"
+              class="share" target="_blank"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="recipe-itself">
+          <p class="ingredients">
+            <b>Ingredients:</b><br><br>
+            500ml (2.15 cups) - Milk<br>
+            3 Eggs<br>
+            2 tablespoons - Sugar<br>
+            A pinch of Salt<br>
+            Flour<br>
+            Vegetable Oil<br>
+            Choose your fillings! Any filling will be delicious!<br>
+          </p>
+          <div class="container">
+            <div class="step">
+              <div class="recipe-img">
+                  <img class="recipe-img" src="blinchiki/img/dough.png" alt="pancake dough">
+              </div>
+              <div class="box-howto">
+                <p class="howto">
+                  Pour the milk into a large mixing bowl. Crack the eggs into the milk and add salt and sugar. Mix everything with a mixer.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="recipe-img">
+                  <img class="recipe-img" src="blinchiki/img/dough-thickness.png" alt="pancake dough">
+              </div>
+              <div class="box-howto">
+                <p class="howto">
+                  Little by little, add flour into the mix. In the end, the dough should be about as thick as a milkshake. Let it rest for 15 minutes. Add two tablespoons of vegetable oil. 
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="recipe-img">
+                  <img class="recipe-img" src="blinchiki/img/morning.png" alt="frying pancake">
+              </div>
+              <div class="box-howto">
+                <p class="howto">
+                  Put some vegetable oil in your frying pan, make sure it's hot. Use a soup ladle to pour the dough into the hot pan. Fry one side of the blinchik (pancake) until it turns gold, then flip it and fry the other side.<br>
+                  Try your first blinchik (pancake). If you think that the dough is missing something, mix it into the bowl.
+                </p>
+              </div>
+            </div>
+            <div class="step">
+              <div class="recipe-img">
+                  <img class="recipe-img" src="blinchiki/img/blinchiki.png" alt="pancakes">
+              </div>
+              <div class="box-howto">
+                <p class="howto">
+                  Enjoy your blinchiki (pancakes) with toppings like maple syrup, jam, butter, or condensed milk. You can put something like cream cheese inside, or anything else really.  I like to roll mine up and eat them with my hands. 
+                </p>
+              </div>
+            </div>
+          </div>
+        <div class="parallax-end">
+          <h2 class="recipe-name">Enjoy</h2>
+        </div>
+      <div class="footer"></div>
+    <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script> 
+  </body>
+</html>
