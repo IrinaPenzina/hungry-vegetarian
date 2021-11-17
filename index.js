@@ -47,13 +47,13 @@ new Vue({
            },
       "Salad": {
         recipes : [
-          // {
-          //   url: "#",
-          //   image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-          //   name: "Amazing Title",
-          //   body:
-          //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nam alias architecto officia, dolores animi qui debitis incidunt eius temporibus nostrum nihil soluta commodi molestiae necessitatibus ducimus amet. Suscipit, saepe!",
-          // },
+          {
+            url: "olivier.html",
+            image: "olivier/img/salad mayo.png",
+            name: "Russian Potato Salad - Olivier - Vegetarian",
+            body:
+              "It is my most favorite dish in the entire world! When I was little, I would choose this salad over cake! If you ask me today, I would still have it over any other food in the whole world. Not only because it tastes so delicious, but also because it's a traditional dish that we eat when we celebrate New Year's in Russia.  It reminds me of home and family.",
+          },
           // {
           //   url: "#",
           //   image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
