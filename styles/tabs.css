@@ -193,7 +193,8 @@ article p {
     font-size: 16px;
   } 
   header nav ul {
-    overflow-y: scroll;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: auto;
   }
 
   header nav ul::-webkit-scrollbar {
