@@ -194,10 +194,9 @@ article p {
   } 
   header nav ul {
     overflow-y: auto;
-    -webkit-overflow-scrolling: auto;
   }
 
-  header nav ul::-webkit-scrollbar {
+ /* header nav ul::-webkit-scrollbar {
     -webkit-appearance: none;
     -webkit-overflow-scrolling: auto;
     width: 7px;
@@ -208,7 +207,7 @@ article p {
     border-radius: 4px;
     background-color: #F2A922;
     box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  }
+  }*/
 }
 
 /*XX-Large devices (larger desktops)
