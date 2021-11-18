@@ -198,6 +198,7 @@ article p {
 
   header nav ul::-webkit-scrollbar {
     -webkit-appearance: none;
+    -webkit-overflow-scrolling: auto;
     width: 7px;
     height: 3px;
   }
