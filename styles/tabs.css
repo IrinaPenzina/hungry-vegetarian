@@ -193,7 +193,19 @@ article p {
     font-size: 16px;
   } 
   header nav ul {
-    overflow: scroll;
+    overflow-y: scroll;
+  }
+
+  header nav ul::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+    height: 3px;
+  }
+
+  header nav ul::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #F2A922;
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   }
 }
 
