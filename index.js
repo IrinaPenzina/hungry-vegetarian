@@ -41,7 +41,7 @@ new Vue({
             image: "pea-soup/img/soup-spoon.png",
             name: "Vegan Pea Soup",
             body:
-              "Cheap and quick soup recipe. As a kid, I used to hate this soup; I cannot tell you why. As an adult, sometimes, I crave for it so badly that nothing can stop me from making it even in the middle of the hot summer night.",
+              "Cheap and quick soup recipe. As a kid, I used to hate this soup… I couldn’t tell you why.  It’s delicious! As an adult, sometimes I crave it so badly that nothing can stop me from making it! Even on a hot summer night!",
           },
         ],
            },
