@@ -36,13 +36,13 @@ new Vue({
             body:
               "Cheap, delicious, healthy! All in one - meet Borsch! This is one of my favorite soups in the world. No one has ever said this soup is just “okay” after trying it!",
           },
-          // {
-          // //   url: "#",
-          // //   image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-          // //   name: "Great Title",
-          // //   body:
-          // //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nam alias architecto officia, dolores animi qui debitis incidunt eius temporibus nostrum nihil soluta commodi molestiae necessitatibus ducimus amet. Suscipit, saepe!",
-          // // },
+          {
+            url: "pea-soup.html",
+            image: "pea-soup/img/soup-spoon.png",
+            name: "Vegan Pea Soup",
+            body:
+              "Cheap and quick soup recipe. As a kid, I used to hate this soup; I cannot tell you why. As an adult, sometimes, I crave for it so badly that nothing can stop me from making it even in the middle of the hot summer night.",
+          },
         ],
            },
       "Salad": {
