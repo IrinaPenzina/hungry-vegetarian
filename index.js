@@ -31,7 +31,7 @@ new Vue({
         recipes : [
           {
             url: "borsch.html",
-            image: "borsch/img/borsch.png",
+            image: "borsch/img/borsch.jpg",
             name: "Meatless Borsch",
             body:
               "Cheap, delicious, healthy! All in one - meet Borsch! This is one of my favorite soups in the world. No one has ever said this soup is just “okay” after trying it!",
