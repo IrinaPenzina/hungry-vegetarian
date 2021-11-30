@@ -6,7 +6,7 @@ new Vue({
         recipes : [
           {
             url: "blinchiki.html",
-            image: "blinchiki/img/blinchiki.png",
+            image: "blinchiki/img/blinchiki.jpg",
             name: "Blinchiki - Russian Pancakes",
             body:
               "Blinchiki, my favorite breakfast from my childhood! You can make them with different fillings or just on their own. They are perfect for a slow weekend morning.",
