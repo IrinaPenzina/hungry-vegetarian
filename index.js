@@ -67,7 +67,7 @@ new Vue({
         recipes : [
           {
             url: "dumplings.html",
-            image: "dumplings/img/cooked-soup.png",
+            image: "dumplings/img/cooked-soup.jpg",
             name: "Vegetarian Dumplings",
             body:
               "Vegetarian Dumplings that I love to make with my husband. It’s not just a delicious meal, but also a time wonderfully spent together. It is a great family tradition for a holiday to pull everyone together.",
