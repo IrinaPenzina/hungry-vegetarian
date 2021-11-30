@@ -49,7 +49,7 @@ new Vue({
         recipes : [
           {
             url: "olivier.html",
-            image: "olivier/img/salad mayo.png",
+            image: "olivier/img/salad-mayo.jpg",
             name: "Russian Potato Salad - Olivier - Vegetarian",
             body:
               "It is my most favorite dish in the entire world! When I was little, I would choose this salad over cake! If you ask me today, I would still have it over any other food in the whole world. Not only because it tastes so delicious, but also because it's a traditional dish that we eat when we celebrate New Year's in Russia.  It reminds me of home and family.",
