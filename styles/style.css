@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
 }
 
-
 h1, h3{
 	font-family: 'Annie Use Your Telescope', cursive;
 	color: #1E4005;
@@ -31,7 +30,6 @@ p {
 	grid-column-end: 1;
 }
 .main-broccali {
-	/*width: 500px;*/
 	width: 40%;
 	position: absolute;
 }
@@ -40,7 +38,6 @@ p {
 	font-size: 60px;
 }
 
-
 .main-search {
 	margin-top: 29%;
 	grid-column-start: 2;
@@ -48,13 +45,11 @@ p {
 }
 
 .search-box{
-  /*width: fit-content;*/
   height: fit-content;
    position: relative; 
 }
 
 .btn-search{
-  /* width: 50px; */
   height: 50px;
   border-style: none;
   font-size: 25px;
@@ -65,7 +60,6 @@ p {
 }
 
 .btn-search ~ .input-search{
-  /*width: 350px;*/
   border-radius: 0px;
   background-color: transparent;
   border-style: none;
@@ -86,10 +80,8 @@ p {
   font-family: font-family: 'Raleway', sans-serif;
 }
 
-
 /*header*/
 .header {
-  /*position: fixed;*/
   width: 100%;
   z-index: 100;
 }
@@ -116,9 +108,7 @@ p {
   font-family: 'Annie Use Your Telescope', cursive !important;
 }
 
-
 /*footer*/
-
 .footer {
   margin-top: auto;
   display: flex;
@@ -137,9 +127,6 @@ p {
 }
 
 /*social buttons*/
-
-
-
 .social-icons {
   padding: 0;
   list-style: none;
@@ -188,10 +175,6 @@ p {
   transition: all 265ms ease-in;
 }
 
-
-@media (max-width: 575.98px) { ... }
-
-
 @media (max-width: 767.98px) {
   .main-broccali {
     width: 50%;
@@ -221,11 +204,6 @@ p {
     padding: 0px 5px;
   }
 }
-
-@media (max-width: 991.98px) { ... }
-
-@media (max-width: 1199.98px) { ... }
-
 
 @media (max-width: 1399.98px) { 
   .input-search {
