@@ -1,4 +1,3 @@
-
 .fab .sliding-share:before {
     text-decoration: none;
     color:#F2A922;
@@ -15,7 +14,6 @@
     text-decoration: none;
     color:#F2A922 !important;
 }
-
 
 .btn_wrap {
     margin: 0 auto;
@@ -45,7 +43,7 @@
 }
 
 .btn_wrap:hover {
-    /* transition-delay: .4s; */
+     transition-delay: .4s; 
     -webkit-transform: scale(1.1);
             transform: scale(1.1)
 }
@@ -115,7 +113,6 @@ span {
             transform: scale(1);
 }
 
-
 .dr {
 position: absolute;
   bottom: 16px; 
@@ -129,5 +126,3 @@ position: absolute;
     height: 44px;
  }
 }
-
-
