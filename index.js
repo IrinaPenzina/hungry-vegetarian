@@ -28,6 +28,13 @@ new Vue({
             name: "Vegan Pea Soup",
             body:
               "Cheap and quick soup recipe. As a kid, I used to hate this soup… I couldn’t tell you why.  It’s delicious! As an adult, sometimes I crave it so badly that nothing can stop me from making it! Even on a hot summer night!",
+          },          
+          {
+            url: "ramen.html",
+            image: "ramen/img/ramen.jpg",
+            name: "Ramen with Tofu",
+            body:
+              "This soup has the most delicious broth in the world! It is so good… and a little bit spicy! 🌶🔥 Ramen, just like at a restaurant! This recipe does require effort and attention, but it is rewarding in the end.",
           },
         ],
            },
