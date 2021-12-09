@@ -14,9 +14,22 @@ h2 {
   color: #F2A922;
 }
 
+
+h2::selection {
+  background: white;
+}
+
 p {
   font-family: 'Raleway', sans-serif;
 	color: #022601;
+}
+
+p::selection {
+  background: #F2A922;;
+}
+
+b::selection {
+  background: #F2A922;;
 }
 
 .main-top {
