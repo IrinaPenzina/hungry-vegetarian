@@ -19,6 +19,15 @@
   text-align: justify;
 }
 
+.tagline a {
+  color: white;
+}
+
+.tagline a:hover {
+  color: white;
+  text-shadow: 1px 1px 3px rgb(255 215 0 / 100%);
+}
+
 .ingredients {
   margin-top: 2%;
   text-align: center;
@@ -49,6 +58,18 @@
   object-fit: cover;
   margin-bottom: 5%;
 }
+
+.carousel-control-prev, 
+.carousel-control-next, 
+span {
+    opacity: 1 !important;
+  }
+
+  .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover, span{
+    opacity: 1!important;
+  }
+
+
 
 .box-howto {
   height: 100%;

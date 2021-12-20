@@ -62,27 +62,26 @@ new Vue({
       },
       "Dessert": {
         recipes : [
-          // {
-          //   url: "#",
-          //   image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-          //   name: "Awesome Title",
-          //   body:
-          //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nam alias architecto officia, dolores animi qui debitis incidunt eius temporibus nostrum nihil soluta commodi molestiae necessitatibus ducimus amet. Suscipit, saepe!",
-          // },
+          {
+            url: "bawirsaq.html",
+            image: "bawirsaq/img/bawirsaq.jpg",
+            name: "Bawirsaq - Бауырһаҡ",
+            body:
+              "Bawirsaq (Бауырһаҡ) is a Bashkir national dessert that I used to have as a kid for many festivals. I simplified the recipe a little bit, but it still has the same taste as I remember it.",
+          },
         ],
        },
-      "Drink": {
-        recipes : [
-          // {
-          //   url: "#",
-          //   image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-          //   name: "Awesome Title",
-          //   body:
-          //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nam alias architecto officia, dolores animi qui debitis incidunt eius temporibus nostrum nihil soluta commodi molestiae necessitatibus ducimus amet. Suscipit, saepe!",
-          // },
-        ],
-
-      }
+      // "Drink": {
+      //   recipes : [
+      //     // {
+      //     //   url: "#",
+      //     //   image: "https://images.pexels.com/photos/127513/pexels-photo-127513.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
+      //     //   name: "Awesome Title",
+      //     //   body:
+      //     //     "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab nam alias architecto officia, dolores animi qui debitis incidunt eius temporibus nostrum nihil soluta commodi molestiae necessitatibus ducimus amet. Suscipit, saepe!",
+      //     // },
+      //   ],
+      // }
     },
     activeTab: "Breakfast"
   },

@@ -24,13 +24,10 @@ p {
 	color: #022601;
 }
 
-p::selection {
+b::selection, p::selection, a::selection{
   background: #F2A922;;
 }
 
-b::selection {
-  background: #F2A922;;
-}
 
 .main-top {
 	display: inline-grid;
