@@ -36,6 +36,13 @@ new Vue({
             body:
               "This soup has the most delicious broth in the world! It is so good… and a little bit spicy! 🌶🔥 Ramen, just like at a restaurant! This recipe does require effort and attention, but it is rewarding in the end.",
           },
+          {
+            url: "pickle-soup.html",
+            image: "pickle-soup/img/bowl-s.jpg",
+            name: "Russian Pickle Soup - Rassolnik",
+            body:
+              "This is a vegetarian recipe for Russian Pickle Soup (Rassolnik), a traditional Russian cuisine. The most important ingredients for this soup are… the pickled cucumbers and pickle juice! It’s not your average soup. Try this one!",
+          },
         ],
            },
       "Salad": {
