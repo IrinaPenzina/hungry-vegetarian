@@ -19,6 +19,7 @@
 @media (max-width: 1199.98px) {
   .parallax {
     background-attachment: unset;
+    min-height: 900px;
   }
   .parallax-end {
    background-attachment: unset; 
