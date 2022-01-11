@@ -11,6 +11,13 @@ new Vue({
             body:
               "Blinchiki, my favorite breakfast from my childhood! You can make them with different fillings or just on their own. They are perfect for a slow weekend morning.",
           },
+          {
+            url: "oatmeal.html",
+            image: "images/oatmeal/img/close.jpg",
+            name: "Oatmeal with coconut milk",
+            body:
+              "It takes only 5 minutes and 3 ingredients to make this oatmeal. It's delicious, fast, and healthy. Doesn't it sound like a perfect weekday breakfast?!",
+          },
         ],
       },
       "Soup": {
