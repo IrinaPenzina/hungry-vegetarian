@@ -14,7 +14,7 @@ new Vue({
           {
             url: "oatmeal.html",
             image: "images/oatmeal/img/close.jpg",
-            name: "Oatmeal with coconut milk",
+            name: "Oatmeal with Coconut Milk",
             body:
               "It takes only 5 minutes and 3 ingredients to make this oatmeal. It's delicious, fast, and healthy. Doesn't it sound like a perfect weekday breakfast?!",
           },
