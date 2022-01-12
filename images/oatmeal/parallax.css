@@ -1,27 +1,26 @@
 
-.parallax {
-  /* The image used */
-  background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url("img/nuts.jpg");
+.gradient{
+  background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2));
+}
 
-  /* Set a specific height */
-  min-height: 700px;
-  width: 100%;
-  object-fit: cover;
-
-  /* Create the parallax scrolling effect */
-   background-attachment: fixed; 
+.bg {
+  position: relative;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 700px;
+  width: 100%;
+  object-fit: cover;
+  z-index:-1;
 }
 
+span {
+  position: absolute!important;
+}
 
 @media (max-width: 1199.98px) {
-  .parallax {
-    background-attachment: unset;
+  .bg {
     min-height: 1000px;
-  }
-  .parallax-end {
-   background-attachment: unset; 
   }
 }
