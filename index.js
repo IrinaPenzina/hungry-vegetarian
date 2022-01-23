@@ -72,6 +72,13 @@ new Vue({
             body:
               "Vegetarian Dumplings that I love to make with my husband. It’s not just a delicious meal, but also a time wonderfully spent together. It is a great family tradition for a holiday to pull everyone together.",
           },
+          {
+            url: "spinach-pasta.html",
+            image: "images/spinach-pasta/img/on-the-plate.jpg",
+            name: "Creamy Spinach Pasta",
+            body:
+              "Ingredients for Creamy Spinach Pasta are usually sitting in your fridge. Surprisingly when you put all of them together in one dish it turns out really good. I'm working on not having the second plate. Well, it did not work with this pasta. Yum!",
+          },
         ],
       },
       "Dessert": {
