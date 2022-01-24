@@ -74,7 +74,7 @@ new Vue({
           },
           {
             url: "spinach-pasta.html",
-            image: "images/spinach-pasta/img/on-the-plate.jpg",
+            image: "images/spinach-pasta/img/plate.jpg",
             name: "Creamy Spinach Pasta",
             body:
               "Ingredients for Creamy Spinach Pasta are usually sitting in your fridge. Surprisingly when you put all of them together in one dish it turns out really good. I'm working on not having the second plate. Well, it did not work with this pasta. Yum!",
