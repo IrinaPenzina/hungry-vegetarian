@@ -79,6 +79,13 @@ new Vue({
             body:
               "Ingredients for Creamy Spinach Pasta are usually sitting in your fridge. Surprisingly when you put all of them together in one dish it turns out really good. I'm working on not having the second plate. Well, it did not work with this pasta. Yum!",
           },
+          {
+            url: "chili.html",
+            image: "images/chili/img/ready.jpg",
+            name: "Chili",
+            body:
+              "Ingredients for Creamy Spinach Pasta are usually sitting in your fridge. Surprisingly when you put all of them together in one dish it turns out really good. I'm working on not having the second plate. Well, it did not work with this pasta. Yum!",
+          },
         ],
       },
       "Dessert": {
