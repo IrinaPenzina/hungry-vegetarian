@@ -84,7 +84,7 @@ new Vue({
             image: "images/chili/img/ready.jpg",
             name: "Chili",
             body:
-              "Ingredients for Creamy Spinach Pasta are usually sitting in your fridge. Surprisingly when you put all of them together in one dish it turns out really good. I'm working on not having the second plate. Well, it did not work with this pasta. Yum!",
+              "It is an extremely delicious Chili. To cook this meal, we used almost all the cans from the pantry that sat there for years. The amount we cooked out of the ingredients I listed is enough for a party",
           },
         ],
       },
