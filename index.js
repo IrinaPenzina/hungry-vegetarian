@@ -82,7 +82,7 @@ new Vue({
           {
             url: "chili.html",
             image: "images/chili/img/ready.jpg",
-            name: "Chili",
+            name: "What-the-hell-is-in-my-pantry Chili",
             body:
               "It is an extremely delicious Chili. To cook this meal, we used almost all the cans from the pantry that sat there for years. The amount we cooked out of the ingredients I listed is enough for a party",
           },
