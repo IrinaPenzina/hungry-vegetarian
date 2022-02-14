@@ -82,9 +82,16 @@ new Vue({
           {
             url: "chili.html",
             image: "images/chili/img/ready.jpg",
-            name: "What-the-hell-is-in-my-pantry Chili",
+            name: "What-the-Heck’s in My Pantry Vegetarian Chili",
             body:
-              "It is an extremely delicious Chili. To cook this meal, we used almost all the cans from the pantry that sat there for years. The amount we cooked out of the ingredients I listed is enough for a party",
+              "An extremely delicious Chili! To cook this meal, we used almost all the random cans from the pantry that had been sitting there for years. The amount we cooked out of the ingredients I listed is enough for a party.",
+          },
+          {
+            url: "street-noods.html",
+            image: "images/street-noods/img/fried-noods.jpg",
+            name: "Shanghai Street Noods",
+            body:
+              "Shanghai street noodles have a very special place in my heart. My love for it is unconditional, even if I spent long hours in the bathroom the next day. There's nothing that can beat the best food in the world. It is our humble attempt to bring Shanghai Street Noodles to life on the opposite side of the world.",
           },
         ],
       },
