@@ -18,6 +18,13 @@ new Vue({
             body:
               "It takes only 5 minutes and 3 ingredients to make this oatmeal. It's delicious, fast, and healthy. Doesn't it sound like a perfect weekday breakfast?!",
           },
+          {
+            url: "syrniki.html",
+            image: "images/syrniki/img/syrniki.jpg",
+            name: "Syrniki - Cheese Pancakes",
+            body:
+              "If you have cottage cheese sitting in your fridge, this recipe is 100% for you. It's super easy to make. My husband doesn't like cottage cheese, but he loves syrniki.",
+          },
         ],
       },
       "Soup": {
