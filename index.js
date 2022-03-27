@@ -98,8 +98,15 @@ new Vue({
             image: "images/street-noods/img/fried-noods.jpg",
             name: "Shanghai Street Noods",
             body:
-              "Shanghai street noodles have a very special place in my heart. My love for it is unconditional, even if I spent long hours in the bathroom the next day. There's nothing that can beat the best food in the world. It is our humble attempt to bring Shanghai Street Noodles to life on the opposite side of the world.",
+              "Shanghai street noodles have a very special place in my heart. My love for it is unconditional, even if I spent long hours in the bathroom the next day. There's nothing that can beat the best food in the world. This is our humble attempt to bring Shanghai Street Noodles to life on the opposite side of the world.",
           },
+          // {
+          //   url: "mashed_potatoes.html",
+          //   image: "images/mashed_potatoes/img/ready.jpg",
+          //   name: "Mashed Potatoes",
+          //   body:
+          //     "Good old mashed potatoes. Everyone has their recipe. That's how my husband and I make it. I felt like I had to write it down to remember the exact measurements we usually use. ",
+          // },
         ],
       },
       "Dessert": {
@@ -110,6 +117,13 @@ new Vue({
             name: "Bawirsaq - Бауырһаҡ",
             body:
               "Bawirsaq (Бауырһаҡ) is a Bashkir national dessert that I used to have as a kid for many festivals. I simplified the recipe a little bit, but it still has the same taste as I remember it.",
+          },
+          {
+            url: "cookie_cake.html",
+            image: "images/cookie_cake/img/ready2_big.jpg",
+            name: "Cookie Cake (no baking)",
+            body:
+              "Super easy to make, no need to bake! ...But you will have to wait over a night to eat it. All you need are just three ingredients plus one more - patience.",
           },
         ],
        },
