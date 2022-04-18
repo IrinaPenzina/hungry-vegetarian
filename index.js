@@ -100,13 +100,13 @@ new Vue({
             body:
               "Shanghai street noodles have a very special place in my heart. My love for it is unconditional, even if I spent long hours in the bathroom the next day. There's nothing that can beat the best food in the world. This is our humble attempt to bring Shanghai Street Noodles to life on the opposite side of the world.",
           },
-          // {
-          //   url: "mashed_potatoes.html",
-          //   image: "images/mashed_potatoes/img/ready.jpg",
-          //   name: "Mashed Potatoes",
-          //   body:
-          //     "Good old mashed potatoes. Everyone has their recipe. That's how my husband and I make it. I felt like I had to write it down to remember the exact measurements we usually use. ",
-          // },
+          {
+            url: "vegetable-parmesan.html",
+            image: "images/vegetable-parmesan/img/plate.jpg",
+            name: "Vegetable Parmesan",
+            body:
+              "100% try this recipe! Even though it might take some time to make it. Especially if you don't have a big grill. However, it's absolutely worth it. The vegetables, sauce, and cheese create a perfect taste in your mouth. So good!",
+          },
         ],
       },
       "Dessert": {
