@@ -107,6 +107,13 @@ new Vue({
             body:
               "100% try this recipe! Even though it might take some time to make it. Especially if you don't have a big grill. However, it's absolutely worth it. The vegetables, sauce, and cheese create a perfect taste in your mouth. So good!",
           },
+          {
+            url: "cabbage-stew.html",
+            image: "images/cabbage-stew/img/parsley.jpg",
+            name: "Cabbage Stew",
+            body:
+              "No person hasn't tried Cabbage Stew. In my opinion, there are four main ingredients: cabbage, potatoes, carrots, and onions. As for the rest, use whatever vegetables you like. Here's my version of the well-known cabbage stew. ",
+          },
         ],
       },
       "Dessert": {
