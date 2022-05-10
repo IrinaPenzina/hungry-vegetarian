@@ -11,12 +11,19 @@
   font-size: 60px;
   text-align: center;
   text-shadow: 1px 1px 3px rgb(0 0 0 / 50%);
+  font-family: 'Cabin Sketch', cursive;
+  color: #F2A922;
+}
+
+.recipe-name::selection {
+  background: white;
 }
 
 .tagline {
   font-size: 25px;
   color: white;
   text-align: justify;
+  font-family: 'Raleway', sans-serif;
 }
 
 .tagline a {
