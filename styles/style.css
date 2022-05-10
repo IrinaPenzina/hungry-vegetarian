@@ -4,16 +4,15 @@ body {
   min-height: 100vh;
 }
 
-h1, h3{
+/*h1, h3{
 	font-family: 'Annie Use Your Telescope', cursive;
 	color: #1E4005;
-}
+}*/
 
 h2 {
   font-family: 'Cabin Sketch', cursive;
   color: #F2A922;
 }
-
 
 h2::selection {
   background: white;
@@ -45,6 +44,8 @@ b::selection, p::selection, a::selection{
 }
 
 .search-question {
+  font-family: 'Annie Use Your Telescope', cursive;
+  color: #1E4005;
 	font-size: 60px;
 }
 
@@ -116,6 +117,7 @@ b::selection, p::selection, a::selection{
   padding-top: 5%;
   font-size: 30px;
   font-family: 'Annie Use Your Telescope', cursive !important;
+  color: #1E4005;
 }
 
 /*footer*/
