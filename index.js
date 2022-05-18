@@ -114,6 +114,13 @@ new Vue({
             body:
               "No person hasn't tried Cabbage Stew. In my opinion, there are four main ingredients: cabbage, potatoes, carrots, and onions. As for the rest, use whatever vegetables you like. Here's my version of the well-known cabbage stew. ",
           },
+          {
+            url: "stuffed-peppers.html",
+            image: "images/stuffed-peppers/img/plate.jpg",
+            name: "Vegetarian Stuffed Peppers",
+            body:
+              "Vegetarian Stuffed Peppers are just like regular stuffed peppers but better. I used plant-based meat instead of animal one and it turned out absolutely delicious.",
+          },
         ],
       },
       "Dessert": {
