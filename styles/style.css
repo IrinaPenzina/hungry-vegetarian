@@ -23,7 +23,7 @@ p {
 	color: #022601;
 }
 
-b::selection, p::selection, a::selection{
+b::selection, p::selection, a::selection, i::selection{
   background: #F2A922;;
 }
 
