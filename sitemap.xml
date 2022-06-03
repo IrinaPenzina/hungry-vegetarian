@@ -2,8 +2,59 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://hungry-vegetarian.com/</loc>
-    <lastmod>2022-05-10</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2022-06-03</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://hungry-vegetarian.com/blinchiki.html</loc>
+  </url>
+  <url>
+    <loc>https://hungry-vegetarian.com/oatmeal.html</loc>
+  </url>
+  <url>
+    <loc>https://hungry-vegetarian.com/syrniki.html</loc>
+  </url>
+  <url>
+    <loc>https://hungry-vegetarian.com/borsch.html</loc>
+  </url>
+    <url>
+    <loc>https://hungry-vegetarian.com/pea-soup.html</loc>
+  </url>
+  <url>
+    <loc>https://hungry-vegetarian.com/ramen.html</loc>
+  </url>
+  <url>
+    <loc>https://hungry-vegetarian.com/pickle-soup.html</loc>
+  </url>
+  <url>
+    <loc>https://hungry-vegetarian.com/olivier.html</loc>
+  </url>
+  <url>
+    <loc>https://hungry-vegetarian.com/dumplings.html</loc>
+  </url>
+  <url>
+    <loc>https://hungry-vegetarian.com/spinach-pasta.html</loc>
+  </url>
+  <url>
+    <loc>https://hungry-vegetarian.com/chili.html</loc>
+  </url>
+  <url>
+    <loc>https://hungry-vegetarian.com/street-noods.html</loc>
+  </url>
+  <url>
+    <loc>https://hungry-vegetarian.com/vegetable-parmesan.html</loc>
+  </url>
+  <url>
+    <loc>https://hungry-vegetarian.com/cabbage-stew.html</loc>
+  </url>
+  <url>
+    <loc>https://hungry-vegetarian.com/stuffed-peppers.html</loc>
+  </url>
+  <url>
+    <loc>https://hungry-vegetarian.com/bawirsaq.html</loc>
+  </url>
+  <url>
+    <loc>https://hungry-vegetarian.com/cookie_cake.html</loc>
   </url>
 </urlset>
