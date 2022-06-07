@@ -121,6 +121,13 @@ new Vue({
             body:
               "Vegetarian Stuffed Peppers are just like regular stuffed peppers but better. I used plant-based meat instead of animal one and it turned out absolutely delicious.",
           },
+          {
+            url: "mushroom-pulled-pork.html",
+            image: "images/mushroom-pulled-pork/img/sandwich.jpg",
+            name: 'Mushroom Pulled "Pork"',
+            body:
+              "This mushroom pulled pork tastes soooo good. Not only can you eat it in a sandwich, but also with a side dish. The recipe is fairly easy to make and doesn't require a lot of time. There's only one reason not to make it if you don't like king oyster mushrooms and no other.",
+          },
         ],
       },
       "Dessert": {
