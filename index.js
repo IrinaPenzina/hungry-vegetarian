@@ -153,6 +153,13 @@ new Vue({
             body:
               "Crackers lovers who care about what they eat will love this recipe. Have you ever read the content on any crackers box? Those ingredients sound like they are out of a chemistry kit. Here's your healthy crackers recipe.",
           },
+          {
+            url: "banana-bread.html",
+            image: "images/banana-bread/img/cut.jpg",
+            name: "Banana Bread",
+            body:
+              "Yes, banana bread is delicious, and I sometimes crave a piece. However, I usually make it because we got too many bananas, and I did eat them all on time. It doesn't matter why you love banana bread. It is a great recipe to try.",
+          },
         ],
        },
       // "Drink": {
