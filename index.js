@@ -130,7 +130,7 @@ new Vue({
           },
         ],
       },
-      "Dessert": {
+      "Bakery": {
         recipes : [
           {
             url: "bawirsaq.html",
@@ -145,6 +145,13 @@ new Vue({
             name: "Cookie Cake (no baking)",
             body:
               "Super easy to make, no need to bake! ...But you will have to wait over a night to eat it. All you need are just three ingredients plus one more - patience.",
+          },
+          {
+            url: "crackers.html",
+            image: "images/crackers/img/board.jpg",
+            name: "Crackers",
+            body:
+              "Crackers lovers who care about what they eat will love this recipe. Have you ever read the content on any crackers box? Those ingredients sound like they are out of a chemistry kit. Here's your healthy crackers recipe.",
           },
         ],
        },
