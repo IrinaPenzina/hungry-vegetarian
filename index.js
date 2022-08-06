@@ -160,6 +160,13 @@ new Vue({
             body:
               "Yes, banana bread is delicious, and I sometimes crave a piece. However, I usually make it because we got too many bananas, and I did eat them all on time. It doesn't matter why you love banana bread. It is a great recipe to try.",
           },
+          {
+            url: "blueberry-pie.html",
+            image: "images/blueberry-pie/img/piece-angle.jpg",
+            name: "Blueberry Pie",
+            body:
+              "Omg! This blueberry pie is a masterpiece. The crust is like everything you hoped for in life. When it comes to filling, I make it a little sweet and sour to preserve the actual taste of berries but not overpowering. So good!",
+          },
         ],
        },
       // "Drink": {
