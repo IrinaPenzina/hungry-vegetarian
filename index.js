@@ -167,6 +167,13 @@ new Vue({
             body:
               "Omg! This blueberry pie is a masterpiece. The crust is like everything you hoped for in life. When it comes to filling, I make it a little sweet and sour to preserve the actual taste of berries but not overpowering. So good!",
           },
+          {
+            url: "chocolate-chip-cookie.html",
+            image: "images/chocolate-chip-cookie/img/ready3.jpg",
+            name: "Chocolate Chip Cookie",
+            body:
+              "This is a classic Nestlé Toll House's Original Chocolate Chip Cookie recipe. The cookies turn out amazing, and it's very easy to make. It took me some time to try different recipes, but this one is my all-time favorite.",
+          },
         ],
        },
       // "Drink": {
