@@ -174,6 +174,13 @@ new Vue({
             body:
               "This is a classic Nestlé Toll House's Original Chocolate Chip Cookie recipe. The cookies turn out amazing, and it's very easy to make. It took me some time to try different recipes, but this one is my all-time favorite.",
           },
+          {
+            url: "bread.html",
+            image: "images/bread/img/bread.jpg",
+            name: "Bread",
+            body:
+              "It's easy to make bread, and it doesn't require any special equipment. All you need is four ingredients and a couple of hours of your time. If you follow this recipe, you will get delicious bread with a crunchy crust. My family absolutely loves it.",
+          },
         ],
        },
       // "Drink": {
