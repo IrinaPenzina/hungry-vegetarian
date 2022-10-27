@@ -1,0 +1,55 @@
+:root {
+  --text: #022601;
+  --line: #f2a922;
+  --line-active: #f2a922;
+}
+
+p {
+  font-size: 18px;
+  margin: 0;
+  color: var(--text);
+}
+p .internal-link {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  margin: 0 var(--spacing, 0px);
+  transition: margin 0.25s;
+}
+p .internal-link svg {
+  color: #022601;
+  width: 76px;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 7px) translateZ(0);
+  fill: none;
+  stroke: var(--stroke, var(--line));
+  stroke-linecap: round;
+  stroke-width: 2px;
+  stroke-dasharray: var(--offset, 69px) 278px;
+  stroke-dashoffset: 361px;
+  transition: stroke 0.25s ease var(--stroke-delay, 0s), stroke-dasharray 0.35s;
+}
+p .internal-link:hover {
+  color: #022601;
+  --spacing: 4px;
+  --stroke: var(--line-active);
+  --stroke-delay: 0.1s;
+  --offset: 180px;
+}
+
+/*.box-for-internal-link {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+/*.box-for-internal-link*/ .dribbble {
+  position: fixed;
+  display: block;
+  right: 20px;
+  bottom: 20px;
+}
