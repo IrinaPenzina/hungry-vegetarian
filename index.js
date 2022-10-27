@@ -161,6 +161,13 @@ new Vue({
               "Yes, banana bread is delicious, and I sometimes crave a piece. However, I usually make it because we got too many bananas, and I did eat them all on time. It doesn't matter why you love banana bread. It is a great recipe to try.",
           },
           {
+            url: "pie-crust.html",
+            image: "images/pie-crust/img/dough.jpg",
+            name: "Crust Pie",
+            body:
+              "For some reason, many people think that pie crust is hard to make. This recipe will convince you otherwise. It's supposed to chill longer than you work it. Most importantly, it's delicious and suits for both sweet and non-sweet pies. ",
+          },
+          {
             url: "blueberry-pie.html",
             image: "images/blueberry-pie/img/piece-angle.jpg",
             name: "Blueberry Pie",
