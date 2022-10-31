@@ -188,6 +188,13 @@ new Vue({
             body:
               "It's easy to make bread, and it doesn't require any special equipment. All you need is four ingredients and a couple of hours of your time. If you follow this recipe, you will get delicious bread with a crunchy crust. My family absolutely loves it.",
           },
+          {
+            url: "apple-pie.html",
+            image: "images/apple-pie/img/apple-pie.jpg",
+            name: "Apple Pie",
+            body:
+              "Apple pie is one of the best autumns treats with no tricks. During the apple season, I make two or three of them; you know what - the pie disappears in a couple of days every time. It is a great classic recipe. Make sure to check out the crust recipe too. ",
+          },
         ],
        },
       // "Drink": {
