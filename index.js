@@ -163,7 +163,7 @@ new Vue({
           {
             url: "pie-crust.html",
             image: "images/pie-crust/img/dough.jpg",
-            name: "Crust Pie",
+            name: "Pie Crust",
             body:
               "For some reason, many people think that pie crust is hard to make. This recipe will convince you otherwise. It's supposed to chill longer than you work it. Most importantly, it's delicious and suits for both sweet and non-sweet pies. ",
           },
