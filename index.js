@@ -195,6 +195,13 @@ new Vue({
             body:
               "Apple pie is one of the best autumns treats with no tricks. During the apple season, I make two or three of them; you know what - the pie disappears in a couple of days every time. It is a great classic recipe. Make sure to check out the crust recipe too. ",
           },
+          {
+            url: "pumpkin-pie.html",
+            image: "images/pumpkin-pie/img/piece.jpg",
+            name: "Pumpkin Pie",
+            body:
+              "Here is a recipe for pumpkin pie made with real pumpkins. It is my favorite time of year to decorate my house with little pie pumpkins in autumn. It looks super cute, and they are waiting to be turned into a pie. To make the pie taste delicious, I use a variety of spices.",
+          },
         ],
        },
       // "Drink": {
