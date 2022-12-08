@@ -57,7 +57,7 @@ b::selection, p::selection, a::selection, i::selection{
 
 .search-box{
   height: fit-content;
-   position: relative; 
+  position: relative; 
 }
 
 .btn-search{
@@ -80,15 +80,18 @@ b::selection, p::selection, a::selection, i::selection{
 .input-search{
   outline-style: none;
   background-color: transparent;
-  width: 90%;
+  width: 84%;
   border-style: none;
   border-bottom:1px solid #1E4005 !important;
+  font-size: 30px;
+  font-family: 'Annie Use Your Telescope', cursive;
+  color: #022601;
 }
 
 .input-search::placeholder{
   color:#EEEEEE;
-  font-size: 20px;
-  font-family: font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-family: 'Annie Use Your Telescope', cursive;
 }
 
 /*header*/
