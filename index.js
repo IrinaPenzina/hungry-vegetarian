@@ -1,5 +1,5 @@
-new Vue({
-  el: "#app",
+var tab = new Vue({
+  el: "#tab",
   data: {
     tabs: {
       "Breakfast": {

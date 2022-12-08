@@ -79,16 +79,35 @@
       <div class="main-logo">
         <img class="main-broccali" src="images/Broccoli.png" alt="Hungry Vegetarian">
       </div>
-      <div class="main-search">
-        <h1 class="search-question">What  are you in the mood for?</h1>
-<!--         <div class="search-box">
-          <input type="text" class="input-search" placeholder="Borsch">
-          <button class="btn-search"><i class="fa fa-search"></i></button>
+      <!-- SEARCH -->
+      <div id="search">
+        <div class="main-search">
+          <h1 class="search-question">What  are you in the mood for?</h1>
+<!--             <div class="search-box">
+                <input type="text" v-model="searchQuery" class="input-search" placeholder="Bread">
+              <button class="btn-search"><i class="fa fa-search"></i></button>
+            </div> -->
+        </div>
+
+<!--    <div class="container">
+          <div class="recipe" v-for="post in filteredList">
+              <a v-bind:href="post.url" class="recipe-card__card-link" target="_blank">
+                <img v-bind:src="post.image" alt="" class="recipe-card__image"/>
+                <div class="recipe-card__text-wrapper">
+                  <h2 class="recipe-card__title">{{post.name}}</h2>
+                  <div class="recipe-card__details-wrapper">
+                    <p class="recipe-card__excerpt">{{post.body}}</p>
+                    <a v-bind:href="post.url" class="recipe-card__read-more">Read more <i class="fa fa-arrow-right"></i></a>
+                  </div>
+                </div>
+              </a>
+          </div>
         </div> -->
       </div>
     </div>
+
     <!-- tab -->
-    <main id="app">
+    <main id="tab">
       <header>
         <nav>
           <ul>
@@ -113,7 +132,6 @@
             <tab-content v-for="(tabContent, t) in tabs" :data="tabContent" :key="'content'+t" v-if="t === activeTab" inline-template>
               <div class="content-wrapper">
                 <div class="recipes" v-for="(recipe, i) in data.recipes" :key="i">
-
                   <a v-bind:href="recipe.url" class="recipe-card__card-link"></a>
                   <img :src="recipe.image" alt="" class="recipe-card__image">
                   <div class="recipe-card__text-wrapper">
@@ -133,5 +151,6 @@
     <div class="footer"></div>
     <script src="index.js"></script>
     <script src="arrow.js"></script>
+    <script src="search.js"></script>
   </body>
 </html>
