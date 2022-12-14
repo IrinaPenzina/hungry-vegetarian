@@ -89,8 +89,9 @@
             </div> -->
         </div>
 
-<!--    <div class="container">
+        <!-- <div class="container">
           <div class="recipe" v-for="post in filteredList">
+            <div v-if="searchQuery">
               <a v-bind:href="post.url" class="recipe-card__card-link" target="_blank">
                 <img v-bind:src="post.image" alt="" class="recipe-card__image"/>
                 <div class="recipe-card__text-wrapper">
@@ -101,6 +102,7 @@
                   </div>
                 </div>
               </a>
+            </div>
           </div>
         </div> -->
       </div>
@@ -132,6 +134,7 @@
             <tab-content v-for="(tabContent, t) in tabs" :data="tabContent" :key="'content'+t" v-if="t === activeTab" inline-template>
               <div class="content-wrapper">
                 <div class="recipes" v-for="(recipe, i) in data.recipes" :key="i">
+                  <!-- <div v-if="searchQuery"> -->
                   <a v-bind:href="recipe.url" class="recipe-card__card-link"></a>
                   <img :src="recipe.image" alt="" class="recipe-card__image">
                   <div class="recipe-card__text-wrapper">
@@ -142,6 +145,7 @@
                     </div>
                   </div>
                 </div>
+                <!-- </div> -->
               </div>
             </tab-content>
           </transition>
