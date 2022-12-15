@@ -201,7 +201,7 @@ b::selection, p::selection, a::selection, i::selection{
     width: 50%;
   }
   .btn-search {
-    height: 30px;
+    height: 25px;
   }
   .social-icons {
     margin: 0;
@@ -222,11 +222,11 @@ b::selection, p::selection, a::selection, i::selection{
 
 @media (max-width: 1399.98px) { 
   .input-search {
-    width: 70%;
+    width: 60%;
     font-size: 20px;
   }
   .btn-search {
-    height: 30px;
+    height: 25px;
   }
 }
 
