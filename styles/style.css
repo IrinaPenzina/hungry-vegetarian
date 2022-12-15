@@ -202,7 +202,7 @@ b::selection, p::selection, a::selection, i::selection{
     font-size: 20px;
   }
   .btn-search {
-    height: 25px;
+    height: 35px;
   }
   .social-icons {
     margin: 0;
@@ -227,7 +227,7 @@ b::selection, p::selection, a::selection, i::selection{
     font-size: 20px;
   }
   .btn-search {
-    height: 25px;
+    height: 35px;
   }
 }
 
