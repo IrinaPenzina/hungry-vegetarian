@@ -227,7 +227,7 @@ b::selection, p::selection, a::selection, i::selection{
     font-size: 20px;
   }
   .btn-search {
-    height: 35px;
+    height: 40px;
   }
 }
 
