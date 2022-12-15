@@ -223,7 +223,7 @@ b::selection, p::selection, a::selection, i::selection{
 
 @media (max-width: 1399.98px) { 
   .input-search {
-    width: 55%;
+    width: 60%;
     font-size: 20px;
   }
   .btn-search {
