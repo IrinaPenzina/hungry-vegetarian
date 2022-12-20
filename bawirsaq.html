@@ -46,6 +46,7 @@
     <link rel="stylesheet" href="styles/recipe.css">
     <link rel="stylesheet" href="images/bawirsaq/parallax.css">
     <link rel="stylesheet" href="styles/share.css">
+    <link rel="stylesheet" href="styles/scroll-up.css">
 
     <!-- font-awesome -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -122,8 +123,7 @@
         },
         {
         "@type": "HowToStep",
-        "text": "With wet hands, mound up the bawirsaq into a mountain. Don't worry about the pieces getting stuck together.
-        Traditionally you eat bawirsaq with your hands (but it is ok to use a fork if you don’t like honey on your fingers)."
+        "text": "With wet hands, mound up the bawirsaq into a mountain. Don't worry about the pieces getting stuck together. Traditionally you eat bawirsaq with your hands (but it is ok to use a fork if you don’t like honey on your fingers)."
         }
       ]
     }
@@ -144,6 +144,10 @@
   </head>
   <body>
     <div class="header"></div>
+    <!-- scroll button -->
+    <div id="scrollUp">
+      <div class="scroll" @click="scrollToTop" v-if="showScrollToTopButton"></div>
+    </div>
       <div class="parallax">
         <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"> </a>
         <div class="banner-text">
@@ -274,5 +278,6 @@
         </div>
       <div class="footer"></div>
     <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+    <script src="scrollUp.js"></script>
   </body>
 </html>

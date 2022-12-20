@@ -46,6 +46,7 @@
     <link rel="stylesheet" href="styles/recipe.css">
     <link rel="stylesheet" href="images/ramen/parallax.css">
     <link rel="stylesheet" href="styles/share.css">
+    <link rel="stylesheet" href="styles/scroll-up.css">
 
     <!-- font-awesome -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -118,8 +119,7 @@
       "recipeInstructions": [
         {
         "@type": "HowToStep",
-        "text": "Load in all the ingredients for miso paste into a food-possessor: 1 small onion (quartered), 6 cloves of garlic (peeled), 250ml. (1 cup) of white miso, 3 tablespoons of chili paste, 5cm (2 in) of ginger (peeled and cut), 3 tablespoons of Mirin sweetened sake, 2 tablespoons of vegetable oil, 1 tablespoon of sesame oil.
-        Then, pulse all the ingredients in a food-possessor until they are smoothly blended."
+        "text": "Load in all the ingredients for miso paste into a food-possessor: 1 small onion (quartered), 6 cloves of garlic (peeled), 250ml. (1 cup) of white miso, 3 tablespoons of chili paste, 5cm (2 in) of ginger (peeled and cut), 3 tablespoons of Mirin sweetened sake, 2 tablespoons of vegetable oil, 1 tablespoon of sesame oil. Then, pulse all the ingredients in a food-possessor until they are smoothly blended."
         },
         {
         "@type": "HowToStep",
@@ -164,6 +164,10 @@
   </head>
   <body>
     <div class="header"></div>
+    <!-- scroll button -->
+    <div id="scrollUp">
+      <div class="scroll" @click="scrollToTop" v-if="showScrollToTopButton"></div>
+    </div>
       <div class="parallax">
         <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"> </a>
         <div class="banner-text">
@@ -351,12 +355,12 @@
               </p>
             </div>
           </div>
-
       </div>
       <div class="parallax-end">
           <h2 class="recipe-name">Enjoy</h2>
         </div>
       <div class="footer"></div>
     <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script> 
+    <script src="scrollUp.js"></script>
   </body>
   </html>

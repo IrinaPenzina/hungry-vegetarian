@@ -46,6 +46,7 @@
     <link rel="stylesheet" href="styles/recipe.css">
     <link rel="stylesheet" href="images/pie-crust/parallax.css">
     <link rel="stylesheet" href="styles/share.css">
+    <link rel="stylesheet" href="styles/scroll-up.css">
 
     <!-- font-awesome -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -99,19 +100,15 @@
       "recipeInstructions": [
         {
         "@type": "HowToStep",
-        "text": "Here is the step-by-step instruction on how to make the crust dough. Check out the pictures for reference.
-        Mix sugar, flour, and salt together. Soften the butter and cut it into cubes. Add the butter to the mix and break it with your hands. It's going to look something like picture 3. Next, put sour cream into the mass and stir it with a fork."
+        "text": "Here is the step-by-step instruction on how to make the crust dough. Check out the pictures for reference. Mix sugar, flour, and salt together. Soften the butter and cut it into cubes. Add the butter to the mix and break it with your hands. It's going to look something like picture 3. Next, put sour cream into the mass and stir it with a fork."
         },
         {
         "@type": "HowToStep",
-        "text": "Make something like a disc out of the dough and wrap it in plastic wrap. Refrigerate it for one hour.
-        As it's ready to be pulled out of the fridge, massage the edges with warm hands. Leave it out for several minutes before you roll it out. Sprinkle flour on the surface and the rolling pin to prevent the dough from sticking.
-        Sometimes the dough breaks, which is frustrating. No worries, stick it back together as you lay it out on the baking sheet."
+        "text": "Make something like a disc out of the dough and wrap it in plastic wrap. Refrigerate it for one hour. As it's ready to be pulled out of the fridge, massage the edges with warm hands. Leave it out for several minutes before you roll it out. Sprinkle flour on the surface and the rolling pin to prevent the dough from sticking. Sometimes the dough breaks, which is frustrating. No worries, stick it back together as you lay it out on the baking sheet."
         },
         {
         "@type": "HowToStep",
-        "text": "On the laid-out dough on the baking dish, put your filling mass on top. Distribute it evenly. Close the edges of the dough.
-        Preheat the oven to 425 F. Bake the pie for 40 - 45 minutes."
+        "text": "On the laid-out dough on the baking dish, put your filling mass on top. Distribute it evenly. Close the edges of the dough. Preheat the oven to 425 F. Bake the pie for 40 - 45 minutes."
         }
       ]
     }
@@ -132,6 +129,10 @@
   </head>
   <body>
     <div class="header"></div>
+    <!-- scroll button -->
+    <div id="scrollUp">
+      <div class="scroll" @click="scrollToTop" v-if="showScrollToTopButton"></div>
+    </div>
       <div class="parallax">
         <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"> </a>
         <div class="banner-text">
@@ -244,5 +245,6 @@
         </div>    
       <div class="footer"></div>
     <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+    <script src="scrollUp.js"></script>
   </body>
 </html>

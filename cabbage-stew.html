@@ -46,6 +46,7 @@
     <link rel="stylesheet" href="styles/recipe.css">
     <link rel="stylesheet" href="images/cabbage-stew/parallax.css">
     <link rel="stylesheet" href="styles/share.css">
+    <link rel="stylesheet" href="styles/scroll-up.css">
 
     <!-- font-awesome -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -107,19 +108,15 @@
       "recipeInstructions": [
         {
         "@type": "HowToStep",
-        "text": "I like to cut all the vegetables before I put the pan on the stove. But it's a question of your preference.
-        Start by warming up the oil in the pan. Throw diced onion in and fry it until it gets a little golden. Next, sliced mushrooms go in and make sure you fry them until their edges turn gold."
+        "text": "I like to cut all the vegetables before I put the pan on the stove. But it's a question of your preference. Start by warming up the oil in the pan. Throw diced onion in and fry it until it gets a little golden. Next, sliced mushrooms go in and make sure you fry them until their edges turn gold."
         },
         {
         "@type": "HowToStep",
-        "text": "Now, as you see the golden edges of your mushrooms, it's time to add more vegetables.
-        Add shredded carrots, diced potatoes, sliced tomatoes, shredded garlic, little broccoli trees separated from the stem, salt and pepper.
-        Stir and let sit 5-7 minutes."
+        "text": "Now, as you see the golden edges of your mushrooms, it's time to add more vegetables. Add shredded carrots, diced potatoes, sliced tomatoes, shredded garlic, little broccoli trees separated from the stem, salt and pepper. Stir and let sit 5-7 minutes."
         },
         {
         "@type": "HowToStep",
-        "text": "Well, after 5-7 minutes add a cup of water with tomato pasted mixed in it. Add bay leaves. As it boils add sliced cabbage and close the lid.
-        In 10-15 minutes add another cup of water with tomato pasted in it. Close the lid again."
+        "text": "Well, after 5-7 minutes add a cup of water with tomato pasted mixed in it. Add bay leaves. As it boils add sliced cabbage and close the lid. In 10-15 minutes add another cup of water with tomato pasted in it. Close the lid again."
         },
         {
         "@type": "HowToStep",
@@ -144,6 +141,10 @@
   </head>
   <body>
     <div class="header"></div>
+    <!-- scroll button -->
+    <div id="scrollUp">
+      <div class="scroll" @click="scrollToTop" v-if="showScrollToTopButton"></div>
+    </div>
     <div class="parallax">
       <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"> </a>
         <div class="banner-text">
@@ -289,5 +290,6 @@
     </div>
     <div class="footer"></div>
     <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script> 
+    <script src="scrollUp.js"></script>
   </body>
 </html>
