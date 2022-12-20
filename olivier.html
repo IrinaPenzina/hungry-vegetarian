@@ -46,6 +46,7 @@
     <link rel="stylesheet" href="styles/recipe.css">
     <link rel="stylesheet" href="images/olivier/parallax.css">
     <link rel="stylesheet" href="styles/share.css">
+    <link rel="stylesheet" href="styles/scroll-up.css">
 
     <!-- font-awesome -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -102,10 +103,7 @@
       "recipeInstructions": [
         {
         "@type": "HowToStep",
-        "text": "First, cook the eggs, potatoes, and carrots.
-        Put the eggs into cold water and wait until it boils. Set a timer for 10 minutes.
-        Don’t peel your potatoes and carrots. Keep the skin on them. Put whole potatoes and carrots into the same pot of cold water then boil them until they are soft.
-        While they are cooking, start dicing your onions."
+        "text": "First, cook the eggs, potatoes, and carrots. Put the eggs into cold water and wait until it boils. Set a timer for 10 minutes. Don’t peel your potatoes and carrots. Keep the skin on them. Put whole potatoes and carrots into the same pot of cold water then boil them until they are soft. While they are cooking, start dicing your onions."
         },
         {
         "@type": "HowToStep",
@@ -117,8 +115,7 @@
         },
         {
         "@type": "HowToStep",
-        "text": "After 10 minutes, when the timer for your eggs goes off, drain the hot water from the pot. Refill the pot with cold water and soak the eggs until they are cool.
-        As the potatoes and carrots finish cooking, check to see if they are soft with a fork. If easily stabbed, then turn off the heat and drain the water from the pot. Set them aside and let them cool down a bit. It's going to be easier to peel them if they are not super-hot."
+        "text": "After 10 minutes, when the timer for your eggs goes off, drain the hot water from the pot. Refill the pot with cold water and soak the eggs until they are cool. As the potatoes and carrots finish cooking, check to see if they are soft with a fork. If easily stabbed, then turn off the heat and drain the water from the pot. Set them aside and let them cool down a bit. It's going to be easier to peel them if they are not super-hot."
         },
         {
         "@type": "HowToStep",
@@ -126,8 +123,7 @@
         },
         {
         "@type": "HowToStep",
-        "text": "Mix all ingredients except for the mayonnaise. Add some salt. I usually only mix in the mayonnaise right before serving. Mix in as much mayonnaise as you like, so it looks creamy.
-        The salad will last and taste better longer if you store it without the mayonnaise mixed in. However, we’ve never really had time to check my theory. We always finish it too quickly."
+        "text": "Mix all ingredients except for the mayonnaise. Add some salt. I usually only mix in the mayonnaise right before serving. Mix in as much mayonnaise as you like, so it looks creamy. The salad will last and taste better longer if you store it without the mayonnaise mixed in. However, we’ve never really had time to check my theory. We always finish it too quickly."
         }
       ]
     }
@@ -149,6 +145,10 @@
   </head>
   <body>
     <div class="header"></div>
+    <!-- scroll button -->
+    <div id="scrollUp">
+      <div class="scroll" @click="scrollToTop" v-if="showScrollToTopButton"></div>
+    </div>
       <div class="parallax">
         <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"> </a>
         <div class="banner-text">
@@ -270,6 +270,7 @@
         <h2 class="recipe-name">Enjoy</h2>
       </div>
     <div class="footer"></div>
-    <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script> 
+    <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+    <script src="scrollUp.js"></script> 
   </body>
 </html>

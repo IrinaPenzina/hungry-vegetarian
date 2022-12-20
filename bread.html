@@ -46,6 +46,7 @@
     <link rel="stylesheet" href="styles/recipe.css">
     <link rel="stylesheet" href="images/bread/parallax.css">
     <link rel="stylesheet" href="styles/share.css">
+    <link rel="stylesheet" href="styles/scroll-up.css">
 
     <!-- font-awesome -->
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
@@ -102,8 +103,7 @@
         },
         {
         "@type": "HowToStep",
-        "text": "Wet your hands to knead the dough. Spin the bowl and squeeze it. Wet your hands again if the dough starts sticking to your hands.
-        Once you have finished, cover the dough with a towel or a napkin and let it rest for 30 minutes to an hour."
+        "text": "Wet your hands to knead the dough. Spin the bowl and squeeze it. Wet your hands again if the dough starts sticking to your hands. Once you have finished, cover the dough with a towel or a napkin and let it rest for 30 minutes to an hour."
         },
         {
         "@type": "HowToStep",
@@ -140,6 +140,10 @@
   </head>
   <body>
     <div class="header"></div>
+    <!-- scroll button -->
+    <div id="scrollUp">
+      <div class="scroll" @click="scrollToTop" v-if="showScrollToTopButton"></div>
+    </div>
       <div class="parallax">
         <a href="https://www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"> </a>
         <div class="banner-text">
@@ -329,5 +333,6 @@
         </div>    
       <div class="footer"></div>
     <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
+    <script src="scrollUp.js"></script>
   </body>
 </html>
